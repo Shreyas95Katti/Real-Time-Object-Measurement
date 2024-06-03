@@ -1,8 +1,19 @@
-# Real-Time-Object-Measurement
+# Real-Time Object Measurement
+
 Greetings!!
 
-A project concept chosen for its originality. I was fortunate to be given the opportunity to lead a remarkable team of ambitious individuals in the pursuit of this project. The goal of this project is to automate the process of measuring the dimensions of the item in frame. The overall goal was to enhance industry conditions by making measurement more precise and efficient. I am delighted to inform you that this project has been launched on the cloud using the streamlit library.
+This project was chosen for its originality, and I was fortunate to lead a remarkable team of ambitious individuals in its pursuit. The goal is to automate the process of measuring the dimensions of objects in the frame, enhancing industry conditions by making measurement more precise and efficient. I'm delighted to inform you that this project has been launched on the cloud using the Streamlit library.
 
-The project incorporates ArUco marker and OpenCV ideas. The product can measure square, rectangular, and circular shaped objects, and the team is excited to move on with this project in order to generalise the procedure. The team is now concentrating on measuring irregular things as well. A normal ArUco marker must be placed in the frame for the product to operate in real time. This is done to guarantee that all measurements are exact. The module is constructed in such a manner that the object measurements are taken in relation to the ArUco marker. There are two modules: one for doing image based measurements and another for doing the same in real time carried out with the help of a simple stereo camera. The "streamlit" file is used to deploy the above modules onto the cloud. 
+## Overview
 
-## Thank You
+The project incorporates ArUco marker and OpenCV concepts. It can measure square, rectangular, and circular shaped objects. The team is excited to generalize the procedure to measure irregular objects as well. For the product to operate in real time, a standard ArUco marker must be placed in the frame to ensure all measurements are accurate. 
+
+## Modules
+
+1. **Image-Based Measurements**: 
+   - Takes measurements from images with the ArUco marker in frame.
+   
+2. **Real-Time Measurements**: 
+   - Uses a simple stereo camera to perform measurements in real time with the ArUco marker as a reference.
+   
+The "streamlit" file is used to deploy these modules onto the cloud.
